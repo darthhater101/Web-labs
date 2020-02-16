@@ -1,0 +1,84 @@
+body {
+    margin: 0;
+    padding: 0;
+  }
+
+
+  .page-header {
+      font-style: inherit;
+      text-align: center;
+      height: 125px;
+  }
+
+
+ .nav-item {
+     margin-top: 20px;
+     margin-bottom: 20px;
+    text-align: center;
+}
+
+.nav-link {
+    color: mediumblue ;
+}
+
+.nav {
+    margin-top: 20px;
+    height: 900px;
+    width: 175px;
+}
+
+.content {
+    width: 1730px;
+    text-align: center;
+    height: 560px;
+    font-size: xx-large;
+}
+
+.content p {
+    font-weight: bold;
+    font-size: xx-large;
+}
+
+.main-info {
+    margin-top: 100px;
+    margin-left: 60px;
+    float: left;
+    text-align: left;
+    width: 40%;
+}
+
+.main-image {
+    margin-top: 100px;
+    float: right;
+    width: 50%;
+}
+
+.extra {
+    text-align: center;
+    width: 1730px;
+    height: 220px;
+}
+
+.first {
+    margin-top: 20px;
+    float: left;
+    width: 25%;
+}
+
+.second {
+    float: left;
+    width: 50%;
+}
+
+.third {
+    margin-top: 20px;
+    float: right;
+    width: 25%;
+}
+
+.page-footer {
+    margin-left: 190px;
+    height: 30px;
+}
+
+

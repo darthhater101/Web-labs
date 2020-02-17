@@ -7,6 +7,7 @@ body {
   .page-header {
       font-style: inherit;
       text-align: center;
+      width: 1730px;
       height: 125px;
   }
 
@@ -27,11 +28,47 @@ body {
     width: 175px;
 }
 
+.feedback {
+    width: 1730px;
+    text-align: left;
+    height: 560px;
+}
+
+.feedback button {
+    margin-left: 200px;
+}
+
+.form-group {
+    margin-bottom: 60px;
+    margin-left: 200px;
+}
+
+.contacts-info {
+    margin-top: 100px;
+    margin-left: 100px;
+    float: left;
+    text-align: left;
+}
+
 .content {
     width: 1730px;
     text-align: center;
     height: 560px;
     font-size: xx-large;
+}
+
+.example1 {
+    float: left;
+    width: 50%;
+}
+
+.example2 {
+    float: right;
+    width: 50%;
+}
+
+.content button {
+    margin-top: 100px;
 }
 
 .content p {
@@ -81,4 +118,18 @@ body {
     height: 30px;
 }
 
+input {
+    width: 1300px; 
+    min-width:1300px; 
+    max-width:1300px; 
+}
 
+textarea{ 
+    width: 1300px; 
+    min-width:1300px; 
+    max-width:1300px; 
+  
+    height:200px; 
+    min-height:200px;  
+    max-height:200px;
+  }

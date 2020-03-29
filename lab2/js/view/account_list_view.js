@@ -1,8 +1,8 @@
 import AccountView from './account_view.js';
 
-export default class View {
-    constructor(model) {
-        this.model = model;
+export default class AccountListView {
+    constructor(account_list) {
+        this.account_list = account_list;
     }
 
     view_list() {
@@ -10,7 +10,7 @@ export default class View {
     }
 
     toHtml() {
-        const items_html = this.model.account_list.map( (account) => {
+        const items_html = this.account_list.account_list.map( (account) => {
             const account_view = new AccountView(account);
             return account_view.toHtml();
         }).join("");
